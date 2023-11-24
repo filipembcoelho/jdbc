@@ -1,8 +1,8 @@
-package rumso.jdbc.interfaces;
+package rumos.jdbc.interfaces;
 
 import java.util.List;
 
-interface Repository<T> {
+public interface Repository<T> {
 	List<T> getAll();
 
 	T getById(int id);

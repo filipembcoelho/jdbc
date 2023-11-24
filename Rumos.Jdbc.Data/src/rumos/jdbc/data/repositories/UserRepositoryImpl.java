@@ -2,13 +2,13 @@ package rumos.jdbc.data.repositories;
 
 import java.util.List;
 
+import rumos.jdbc.interfaces.UserRepository;
 import rumos.jdbc.model.User;
-import rumso.jdbc.interfaces.UserRepository;
 
 class UserRepositoryImpl implements UserRepository {
 
 	private String connectionUrl = "";
-	
+
 	@Override
 	public List<User> getAll() {
 		// TODO Auto-generated method stub

@@ -1,14 +1,20 @@
-package rumos.jdbc.model;
+package rumos.jdbc.services.dtos;
 
-public class Account {
-	private int id;
+public class AddUserDto {
+	private String fullName;
 	private String username;
 	private String password;
 
-	public Account(String username, String password) {
-		super();
-		this.username = username;
-		this.password = password;
+	public AddUserDto(String fullName) {
+		this.fullName = fullName;
+	}
+
+	public String getFullName() {
+		return fullName;
+	}
+
+	public void setFullName(String fullName) {
+		this.fullName = fullName;
 	}
 
 	public String getUsername() {

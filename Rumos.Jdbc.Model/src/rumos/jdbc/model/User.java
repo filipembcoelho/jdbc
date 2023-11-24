@@ -7,10 +7,11 @@ public class User {
 
 	private int id;
 	private Name name;
+	
+	
+	
 	private Account account;
 	private List<Todo> todos;
-
-	
 	
 	private List<Address> addresses;
 	private List<Contact> contacts;
