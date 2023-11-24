@@ -1,0 +1,20 @@
+# Eclipse
+*.classpath
+*.project
+.settings/
+.metadata/
+
+# Build output
+bin/
+target/
+
+# Temporary files
+*.tmp
+*.log
+
+# IDE-specific files
+/.idea/
+*.iml
+
+# Dependency directories
+lib/
